@@ -1,0 +1,20 @@
+.heading {
+    color: blue;
+    text-align: center;
+  }
+  .search-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust this based on your design preference */
+    padding: 10px 0;
+  }
+  
+  .search-box, .date-picker {
+    flex: 1; /* This makes each input grow equally */
+    margin-right: 10px; /* Adds a right margin to each element except the last one */
+  }
+  
+  .search-arrow {
+    margin: 0 10px;
+  }
+  
